@@ -1,0 +1,60 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #ddd;
+}
+img {
+	vertical-align: middle !important;
+	border: 0 !important;
+}
+a {
+	color: blue !important;
+	text-decoration: none !important;
+	border: 0 !important;
+}
+
+div.pagebox {
+	width: 760px;
+	margin: 0 auto;
+	padding: 0;
+	background: white;
+	box-shadow: 0px 0px 5px black;
+}
+div.pagebox p, div.pagebox table, div.pagebox ul, div.pagebox ol, div.pagebox h1, div.pagebox h2, div.pagebox h3, div.pagebox h4, div.pagebox h5, div.pagebox h6 {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+div.pagebox li {
+	margin: 0.5em 0;
+}
+
+div.titlebar {
+	height: 30px;
+	line-height: 30px;
+	background-color: #ACC0D0;
+	padding: 0 1em;
+}
+div.titlebar a {
+	color: black !important;
+}
+div.footer {
+	clear: right;
+	background-color: #ACC0D0;
+	padding: 0.5em;
+	text-align: center;
+}
+
+div.messagebox-error {
+	background-color: #D0ADAC;
+	padding: 1em;
+	clear: right;
+}
+div.messagebox-ok {
+	background-color: #AED0AC;
+	padding: 1em;
+	clear: right;
+}
+
+td.caption {
+	text-align: right;
+}
